@@ -1,18 +1,6 @@
-//produces xmlhttprequest error
-/*$(document).ready(function() {
-  $("button").click(function() {
-      $.getJSON("./js/history.json", function(data) {
-          $.each(data.services, function(key, value) {
-              $("ul").append("<li>"+value.name+"-"+value.message+"</li>");
-              console.log(key);
-          });
-      });
-  });
-});*/
-
 $(document).ready(function() {
       $.getJSON("./js/history.json", function(data) {
-          $.each(data.services, function(key, value) {
+          /*$.each(data.services, function(key, value) {
             $("<div><h2>"
             + value.name
             + "</h2><p>Status: "
@@ -21,6 +9,13 @@ $(document).ready(function() {
             + value.message
             + "</p></div>").appendTo("body");
               console.log(key);
+          });*/
+          $.each(data.services, function(key, value){
+            var ctx = document.getElementById("myChart").getContext("2d");
+            var chartInstance = new Chart(ctx, {
+              type: 'bar',
+              data: data,
+            });
           });
       });
 });
