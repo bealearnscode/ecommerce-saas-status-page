@@ -2,3 +2,7 @@ body {
   background-color: #1234ef;
   color: #fff;
 }
+
+div {
+  display: inline-block;
+}
