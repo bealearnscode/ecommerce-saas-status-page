@@ -1,5 +1,5 @@
 //produces xmlhttprequest error
-$(document).ready(function() {
+/*$(document).ready(function() {
   $("button").click(function() {
       $.getJSON("./js/history.json", function(data) {
           $.each(data.services, function(key, value) {
@@ -8,6 +8,15 @@ $(document).ready(function() {
           });
       });
   });
+});*/
+
+$(document).ready(function() {
+      $.getJSON("./js/history.json", function(data) {
+          $.each(data.services, function(key, value) {
+              $("h2").append(value.name);
+              console.log(key);
+          });
+      });
 });
 
 /*function loadJSON(callback) {
