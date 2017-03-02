@@ -1,14 +1,15 @@
-/*$(document).ready(function() {
+//produces xmlhttprequest error
+$(document).ready(function() {
   $("button").click(function() {
-      $.getJSON("history.json", function(data) {
+      $.getJSON("./js/history.json", function(data) {
           $.each(data, function(key, value) {
               $("ul").append("<li>"+value.name+"</li>");
           });
       });
   });
-});*/
+});
 
-function loadJSON(callback) {
+/*function loadJSON(callback) {
 
     var xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");
@@ -26,4 +27,4 @@ function loadJSON(callback) {
    // Parse JSON string into object
      var actual_JSON = JSON.parse(response);
   });
- }
+}*/
