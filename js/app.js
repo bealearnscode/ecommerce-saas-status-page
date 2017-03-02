@@ -2,8 +2,9 @@
 $(document).ready(function() {
   $("button").click(function() {
       $.getJSON("./js/history.json", function(data) {
-          $.each(data, function(key, value) {
+          $.each(data.services, function(key, value) {
               $("ul").append("<li>"+value.name+"</li>");
+              console.log(key);
           });
       });
   });
