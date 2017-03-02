@@ -13,7 +13,13 @@
 $(document).ready(function() {
       $.getJSON("./js/history.json", function(data) {
           $.each(data.services, function(key, value) {
-            $("<div><h2>"+value.name+"</h2><p>"+value.status+"</p></div>").appendTo("body");
+            $("<div><h2>"
+            + value.name
+            + "</h2><p>Status: "
+            + value.status
+            + "</p><p>Message: "
+            + value.message
+            + "</p></div>").appendTo("body");
               console.log(key);
           });
       });
