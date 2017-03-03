@@ -21,11 +21,11 @@ $(document).ready(function() {
                               datasets: [{
                                 label: data.services[0].name,
                                 data: data.services[0].values,
-                                backgroundColor: "rgba(153,255,51,0.4)"
+                                backgroundColor: "rgba(52, 152, 219,0.4)"
                               }, {
                                 label: data.services[1].name,
                                 data: data.services[1].values,
-                                backgroundColor: "rgba(255,153,0,0.4)"
+                                backgroundColor: "rgba(219,119,52,0.4)"
                             }]
                             }
                       })
