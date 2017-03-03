@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #fff;
   color: #000;
@@ -5,6 +9,8 @@ body {
 
 section {
   border: 1px solid black;
+  margin-top: 50px;
+
 }
 
 /*div {
