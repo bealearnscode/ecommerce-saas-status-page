@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+            $.getJSON("./js/history.json", function(data) {
                     $.each(data.services, function(key, value) {
                       $("<div><h2>"
                       + value.name
@@ -7,7 +7,7 @@ $(document).ready(function() {
                       + value.status
                       + "</p><p>Message: "
                       + value.message
-                      + "</p></div>").appendTo("body");
+                      + "</p></div>").appendTo("#services");
                         console.log(key);
                     });
 
