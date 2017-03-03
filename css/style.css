@@ -1,17 +1,25 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   background-color: #fff;
   color: #000;
 }
 
-section {
-  border: 1px solid black;
-  margin-top: 50px;
-
+div {
+  display: inline-block;
 }
+
+h2 {
+  color: green;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+}
+
+/*canvas {
+  float: right;
+}*/
 
 /*div {
   display: inline-block;
