@@ -11,8 +11,8 @@ $(document).ready(function() {
                         console.log(key);
                     });
 
-                    drawLine();
-                      function drawLine() {
+                    drawBar();
+                      function drawBar() {
                         var ctx = document.getElementById("myChart").getContext("2d");
                         var myChart = new Chart(ctx, {
                             type: "bar",
