@@ -3,7 +3,11 @@ body {
   color: #000;
 }
 
-div {
+section {
+  border: 1px solid black;
+}
+
+/*div {
   display: inline-block;
 }
 
@@ -14,4 +18,4 @@ h2 {
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 2em;
-}
+}*/
