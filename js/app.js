@@ -1,5 +1,5 @@
 $(document).ready(function() {
-            $.getJSON("./js/history.json", function(data) {
+
                     $.each(data.services, function(key, value) {
                       $("<div><h2>"
                       + value.name
