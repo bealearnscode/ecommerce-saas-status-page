@@ -9,6 +9,11 @@ body {
   line-height: 1.6875;
 }
 
+header,
+main {
+  padding: 0 5rem;
+}
+
 header {
   height: 750px;
 }
@@ -48,17 +53,49 @@ p {
 
 /***** RESPONSIVE DESIGN *****/
 @media only screen and (max-width: 400px) {
-body { font-size:70%;}
+  body {
+   font-size: 70%;
+ }
+
+  header,
+  main {
+   padding: 0 !important;
+ }
+
 }
 
 @media only screen and (max-width: 800px) {
-body { font-size:80%;}
+  body {
+   font-size: 80%;
+ }
+
+  header,
+  main {
+   padding: 0 2rem;
+ }
+
 }
 
 @media only screen and (max-width: 1100px) {
-body { font-size:110%;}
+  body {
+   font-size: 110%;
+ }
+
+  header,
+  main {
+   padding: 0 3rem;
+ }
+
 }
 
 @media only screen and (min-width: 1100px) {
-body { font-size:120%;}
+  body {
+   font-size: 120%;
+ }
+
+  header,
+  main {
+   padding: 0 4rem;
+ }
+
 }
