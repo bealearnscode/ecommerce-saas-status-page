@@ -15,6 +15,7 @@ main {
 }
 
 header {
+  background:  linear-gradient(to top, #fccfb7, #ecf0f1);
   height: 650px;
 }
 
@@ -54,7 +55,8 @@ h2 {
   text-align: center;
 }
 
-p {
+p,
+ol > li {
   color: #db7734;
   font-family: 'Open Sans', sans-serif;
 }
