@@ -38,9 +38,12 @@ nav > ul {
   flex-grow: 1;
 }
 
-a,
-a:hover {
+a {
   color: #ecf0f1;
+}
+
+a:hover {
+  color: #f46f25;
 }
 
 #intro {
