@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background:  linear-gradient(to bottom right,#fff, #f57f3d, #f68f56);
+  background: /*linear-gradient(to bottom right, #fff, #f57f3d, #f68f56);*/ #fff;
   height: 750px;
 }
 
@@ -34,7 +34,7 @@ h2 {
 }
 
 p {
-  color: #db7734 !important;
+  color: #db7734;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5em;
 }
