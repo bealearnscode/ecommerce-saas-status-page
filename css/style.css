@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-  color: #f46f25;
+  color: #fccfb7;
 }
 
 #intro {
@@ -98,7 +98,7 @@ ol > li {
 
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (min-width: 1100px) {
   body {
    font-size: 110%;
  }
@@ -106,18 +106,6 @@ ol > li {
   header,
   main {
    padding: 0 3rem;
- }
-
-}
-
-@media only screen and (min-width: 1100px) {
-  body {
-   font-size: 140%;
- }
-
-  header,
-  main {
-   padding: 0 4rem;
  }
 
 }
