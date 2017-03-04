@@ -1,118 +1,105 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  background-color: #ecf0f1;
-  color: #000;
-  font-size: 100%;
-  line-height: 1.6875;
+    background-color: #ecf0f1;
+    color: #000;
+    font-size: 100%;
+    line-height: 1.6875;
 }
 
-header,
-main {
-  padding: 0 5rem;
+header, main {
+    padding: 0 5rem;
 }
 
 header {
-  background:  linear-gradient(to top, #fccfb7, #ecf0f1);
-  height: 650px;
+    background: linear-gradient(to top, #fccfb7, #ecf0f1);
+    height: 650px;
 }
 
 h1 {
-  color: #f46f25;
-  padding-top: 15%;
-  text-align: center;
+    color: #f46f25;
+    padding-top: 15%;
+    text-align: center;
 }
 
 nav {
-  background-color: #3498db;
-  display: flex;
-  float: none !important;
-  margin-top: 5%;
+    background-color: #3498db;
+    display: flex;
+    float: none !important;
+    margin-top: 5%;
 }
 
-nav > ul {
-  display: flex;
-  justify-content: space-around;
-  flex-grow: 1;
+nav>ul {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
 }
 
 a {
-  color: #ecf0f1;
+    color: #ecf0f1;
 }
 
 a:hover {
-  color: #fccfb7;
-}
-
-#intro {
-  padding: 20px 0;
-}
-
-#intro p:first-child {
-  padding-right: 5px;
+    color: #fccfb7;
 }
 
 #seven-day-data {
-  border-top: 1px solid #db7734;
-  margin-top: 2em;
+    border-top: 1px solid #db7734;
+    margin-top: 2em;
 }
 
 h2 {
-  color: #3498db;
-  font-family: 'Source Sans Pro', sans-serif;
-  padding-top: 2rem;
-  text-align: center;
+    color: #3498db;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 2rem;
+    text-align: center;
 }
 
-p,
-ol > li {
-  color: #db7734;
-  font-family: 'Open Sans', sans-serif;
+p, ol>li {
+    color: #db7734;
+    font-family: 'Open Sans', sans-serif;
 }
 
-footer p {
-  text-align: center;
+footer {
+    padding-top: 5%;
 }
 
-footer a {
-  color: #3498db;
+footer p, footer a i {
+    text-align: center;
 }
+
+footer a, footer i {
+    color: #3498db;
+}
+
 
 /***** RESPONSIVE DESIGN *****/
+
 @media only screen and (max-width: 400px) {
-  body {
-   font-size: 70%;
- }
-
-  header,
-  main {
-   padding: 0 !important;
- }
-
+    body {
+        font-size: 70%;
+    }
+    header, main {
+        padding: 0 !important;
+    }
 }
 
 @media only screen and (max-width: 800px) {
-  body {
-   font-size: 80%;
- }
-
-  header,
-  main {
-   padding: 0 2rem;
- }
-
+    body {
+        font-size: 80%;
+    }
+    header, main {
+        padding: 0 2rem;
+    }
 }
 
 @media only screen and (min-width: 1100px) {
-  body {
-   font-size: 110%;
- }
-
-  header,
-  main {
-   padding: 0 3rem;
- }
-
+    body {
+        font-size: 110%;
+    }
+    header, main {
+        padding: 0 3rem;
+    }
 }
