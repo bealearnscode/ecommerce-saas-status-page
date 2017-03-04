@@ -26,7 +26,15 @@ h1 {
 
 nav {
   background-color: #3498db;
+  display: flex;
+  float: none !important;
   margin-top: 5%;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
 }
 
 a,
