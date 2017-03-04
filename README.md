@@ -2,7 +2,7 @@
 
 An imaginary SaaS product created by Beatrix.
 
-### Demo:
+### Demo: https://bealearnscode.github.io/magento-saas-status-page/
 
 
 ## Getting set up
