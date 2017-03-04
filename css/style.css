@@ -3,6 +3,11 @@ body {
   color: #000;
 }
 
+header {
+  background:  linear-gradient(to right,#f46f25, #f57f3d, #f68f56);
+  height: 750px;
+}
+
 div {
   display: block;
 }
