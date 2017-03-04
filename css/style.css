@@ -15,7 +15,6 @@ header {
 
 h1 {
   color: #f46f25;
-  /*font-size: 2em;*/
   padding-top: 50px;
   text-align: center;
 }
@@ -37,6 +36,8 @@ a:hover {
 h2 {
   color: #3498db;
   font-family: 'Source Sans Pro', sans-serif;
+  padding-top: 2rem;
+  text-align: center;
 }
 
 p {
