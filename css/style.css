@@ -46,9 +46,9 @@ a:hover {
     color: #fccfb7;
 }
 
+#thirty-day-data,
 #seven-day-data {
-    border-top: 1px solid #db7734;
-    margin-top: 2em;
+  margin-top: 2em;
 }
 
 h2 {
@@ -64,6 +64,7 @@ p, ol>li {
 }
 
 footer {
+    border-top: 1px solid #db7734;
     padding-top: 5%;
 }
 
