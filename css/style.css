@@ -76,12 +76,16 @@ footer p, footer a i {
     padding-top: 2%;
 }
 
-footer a, footer i {
+footer a {
     color: #3498db;
 }
 
-i {
+footer i {
   color: #db7734;
+}
+
+footer i:hover {
+  color: #3498db;
 }
 
 
