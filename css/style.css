@@ -8,19 +8,23 @@ body {
 }
 
 header {
-  background: linear-gradient(to bottom right, #ecf0f1, #f68f56, #f57f3d);
   height: 750px;
 }
 
 h1 {
-  color: #fff;
-  font-size: 6em;
+  color: #f46f25;
+  font-size: 2em;
   padding-top: 50px;
   text-align: center;
 }
 
-div {
-  display: block;
+nav {
+  background-color: #3498db;
+}
+
+a,
+a:hover {
+  color: #ecf0f1;
 }
 
 #seven-day-data {
