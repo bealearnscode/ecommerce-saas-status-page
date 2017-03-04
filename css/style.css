@@ -30,22 +30,22 @@ a:hover {
 }
 
 #seven-day-data {
-  border-top: 1px solid #5a5a5a;
+  border-top: 1px solid #db7734;
   margin-top: 2em;
 }
 
 h2 {
   color: #3498db;
   font-family: 'Source Sans Pro', sans-serif;
-  /*font-size: 2.25em;*/
 }
 
 p {
   color: #db7734;
   font-family: 'Open Sans', sans-serif;
-  /*font-size: 1.5em;*/
 }
 
+
+/***** RESPONSIVE DESIGN *****/
 @media only screen and (max-width: 400px) {
 body { font-size:70%;}
 }
