@@ -77,6 +77,11 @@ footer a, footer i {
     color: #3498db;
 }
 
+i {
+  color: #db7734;
+  text-align: center;
+}
+
 
 /***** RESPONSIVE DESIGN *****/
 
