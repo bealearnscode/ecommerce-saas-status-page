@@ -29,7 +29,7 @@ nav {
     background-color: #3498db;
     display: flex;
     float: none !important;
-    margin: 5% 1% 0;
+    margin: 5% auto;
 }
 
 nav>ul {
