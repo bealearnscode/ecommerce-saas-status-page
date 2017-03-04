@@ -15,7 +15,7 @@ main {
 }
 
 header {
-  height: 550px;
+  height: 650px;
 }
 
 h1 {
@@ -26,6 +26,7 @@ h1 {
 
 nav {
   background-color: #3498db;
+  margin-top: 5%;
 }
 
 a,
