@@ -27,7 +27,7 @@ $(document).ready(function() {
                               }, {
                                 label: data.services[1].name,
                                 data: data.services[1].values,
-                                backgroundColor: "rgba(219,119,52,0.4)"
+                                backgroundColor: "rgba(244, 111, 37,0.4)"
                             }]
                             }
                       })
@@ -40,11 +40,11 @@ $(document).ready(function() {
                           data: {
                             labels: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7"],
                             datasets: [{
-                              label: data.services[0].name,
+                              label: "Dashboard availability - Last 7 days by hour",
                               data: data.services[0].values,
                               backgroundColor: "rgba(52, 152, 219,0.4)"
                             }, {
-                              label: data.services[1].name,
+                              label: "API availability - Last 7 days by hour",
                               data: data.services[1].values,
                               backgroundColor: "rgba(219,119,52,0.4)"
                           }]
