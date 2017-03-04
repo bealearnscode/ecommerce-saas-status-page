@@ -17,6 +17,7 @@
 <body>
     <header>
         <h1>Magento SaaS Project</h1>
+
         <nav id="navigation" role="navigation" class="small-12 columns">
             <ul class="menu">
                 <li><a href=#intro>Intro</a></li>
@@ -24,43 +25,48 @@
                 <li><a href="#seven-day-data">7 Day Data</a></li>
             </ul>
         </nav>
+
     </header>
     <main>
-      <section id="intro">
-        <p>This imaginary SaaS project was built using HTML5, CSS3, vanilla JavaScript, and jQuery. I chose jQuery for two reasons:
-          <ol>
-            <li>I know how to extract JSON data with jQuery</li>
-            <li>I believe a framework like React would have taken too long and I wanted to produce an MVP in the time allotted.</li>
-          </ol>
-      </section>
-      <div id="thirty-day-data" class="row">
-          <div id="services30" class="small-12 large-6 columns">
-          </div>
-          <div class="chart small-12 large-6 columns">
-            <canvas id="myChart30" width="200" height="200"></canvas>
-          </div>
-      </div>
-
-      <div id="seven-day-data" class="row">
-        <div id="services7" class="small-12 large-6 columns"></div>
-
-        <div class="small-12 large-6 columns">
-            <h2>Dashboard availability - Last 7 days by hour</h2>
-            <p>Status: Available</p>
-            <p>Message: The system is operating normally</p>
-
-            <h2>API availability - Last 7 days by hour</h2>
-            <p>Status: Unvailable</p>
-            <p>Message: We're currently experiencing a degredation in service due to a hardware failure.</p>
+        <section id="intro" class="row">
+            <h2>Intro</h2>
+            <p class="small-12 large-6 columns">This imaginary SaaS project was built using HTML5, CSS3, vanilla JavaScript, and jQuery. I chose jQuery for two reasons:
+              <ol>
+                    <li>I know how to extract JSON data with jQuery</li>
+                    <li>I believe a framework like React would have taken too long and I wanted to produce an MVP in the time allotted.</li>
+                </ol>
+            </p>
+            <p class="small-12 large-6 columns">hbgjkblknbjhvgftfdrexfcvgbhkinj  bg ijhnuhyvytg</p>
+        </section>
+        <div id="thirty-day-data" class="row">
+            <div id="services30" class="small-12 large-6 columns">
+            </div>
+            <div class="chart small-12 large-6 columns">
+                <canvas id="myChart30" width="200" height="200"></canvas>
+            </div>
         </div>
-          <div class="chart small-12 large-6 columns">
-            <canvas id="myChart7" width="200" height="200"></canvas>
-          </div>
-      </div>
+
+        <div id="seven-day-data" class="row">
+            <div id="services7" class="small-12 large-6 columns"></div>
+
+            <div class="small-12 large-6 columns">
+                <h2>Dashboard availability - Last 7 days by hour</h2>
+                <p>Status: Available</p>
+                <p>Message: The system is operating normally</p>
+
+                <h2>API availability - Last 7 days by hour</h2>
+                <p>Status: Unvailable</p>
+                <p>Message: We're currently experiencing a degredation in service due to a hardware failure.</p>
+            </div>
+            <div class="chart small-12 large-6 columns">
+                <canvas id="myChart7" width="200" height="200"></canvas>
+            </div>
+        </div>
     </main>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/plugins/foundation.core.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/app.js" type="text/javascript"></script>
 </body>
