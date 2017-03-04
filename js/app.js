@@ -7,7 +7,7 @@ $(document).ready(function() {
                       + value.status
                       + "</p><p>Message: "
                       + value.message
-                      + "</p></div>").appendTo("#services");
+                      + "</p></div>").appendTo("#services30");
                         console.log(key);
                     });
 
