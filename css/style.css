@@ -69,6 +69,7 @@ footer {
 }
 
 footer p, footer a i {
+    padding-top: 2%;
     text-align: center;
 }
 
