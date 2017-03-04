@@ -1,13 +1,13 @@
 # Magento SaaS
 
-An imaginary SaaS product. Created Beatrix.
+An imaginary SaaS product created by Beatrix.
 
 ### Demo:
 
 
 ## Getting set up
 
-* You can run this on your local machine by going to localhost:8080 in your browser bar.
+* You can run this on your local machine by going to localhost:8080 in your browser.
 
 ## How to use
 
