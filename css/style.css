@@ -68,9 +68,12 @@ footer {
     margin-top: 2%;
 }
 
+footer > div {
+  text-align: center;
+}
+
 footer p, footer a i {
     padding-top: 2%;
-    text-align: center;
 }
 
 footer a, footer i {
@@ -79,7 +82,6 @@ footer a, footer i {
 
 i {
   color: #db7734;
-  text-align: center;
 }
 
 
