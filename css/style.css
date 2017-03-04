@@ -5,6 +5,8 @@
 body {
   background-color: #ecf0f1;
   color: #000;
+  font-size: 100%;
+  line-height: 1.6875;
 }
 
 header {
@@ -13,7 +15,7 @@ header {
 
 h1 {
   color: #f46f25;
-  font-size: 2em;
+  /*font-size: 2em;*/
   padding-top: 50px;
   text-align: center;
 }
@@ -35,15 +37,27 @@ a:hover {
 h2 {
   color: #3498db;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2.25em;
+  /*font-size: 2.25em;*/
 }
 
 p {
   color: #db7734;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.5em;
+  /*font-size: 1.5em;*/
 }
 
-#chart7 {
-  display: none;
+@media only screen and (max-width: 400px) {
+body { font-size:70%;}
+}
+
+@media only screen and (max-width: 800px) {
+body { font-size:80%;}
+}
+
+@media only screen and (max-width: 1100px) {
+body { font-size:110%;}
+}
+
+@media only screen and (min-width: 1100px) {
+body { font-size:120%;}
 }
