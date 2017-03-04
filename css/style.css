@@ -8,6 +8,12 @@ header {
   height: 750px;
 }
 
+h1 {
+  color: #fff;
+  font-size: 4em;
+  text-align: center;
+}
+
 div {
   display: block;
 }
