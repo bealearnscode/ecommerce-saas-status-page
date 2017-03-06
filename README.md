@@ -7,7 +7,10 @@ An imaginary SaaS product created by Beatrix.
 
 ## Getting set up
 
-* You can run this on your local machine by going to localhost:8080 in your browser.
+You can use this on your local machine by doing the following:
+  * Cloning the repo to your command line
+  * Type in "http-server"
+  * Going to localhost:8080 in your browser.
 
 ## How to use
 
