@@ -26,7 +26,6 @@ h1 {
 }
 
 nav {
-    background-color: #3498db;
     display: flex;
     float: none !important;
     margin: 5% auto;
@@ -97,6 +96,9 @@ footer i:hover {
     }
     header, main {
         padding: 0 !important;
+    }
+    .button {
+      display: block;
     }
 }
 

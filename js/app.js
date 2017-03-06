@@ -8,9 +8,8 @@ $(document).ready(function() {
                 "</p><p>Message: " +
                 value.message +
                 "</p></div>").appendTo("#services30");
-            console.log(key);
         });
-
+        
         drawBar30();
         drawBar7();
 
