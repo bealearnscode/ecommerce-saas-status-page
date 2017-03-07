@@ -1,7 +1,10 @@
 $(document).ready(function() {
 
     var navOffset=$("nav").offset().top;
-    alert(navOffset);
+
+    $(window).scroll(function() {
+      var scrollPos = $(window).scrollTop();
+    };
 
     $.getJSON("./js/history.json", function(data) {
         $.each(data.services, function(key, value) {
