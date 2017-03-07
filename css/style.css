@@ -30,6 +30,12 @@ nav {
     display: flex;
     float: none !important;
     margin: 5% auto;
+    z-index: 500;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
 }
 
 nav>ul {
