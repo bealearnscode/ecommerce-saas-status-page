@@ -1,4 +1,19 @@
 $(document).ready(function() {
+
+    var navOffset=$("nav").offset().top;
+
+    $("nav").wrap("<div class='nav-placeholder small-12 columns'></div>");
+    $(".nav-placeholder").height($("nav").outerHeight());
+
+    $(window).scroll(function() {
+      var scrollPos = $(window).scrollTop();
+      if (scrollPos >= navOffset) {
+        $("nav").addClass("fixed");
+      } else {
+        $("nav").removeClass("fixed");
+      };
+    });
+
     $.getJSON("./js/history.json", function(data) {
         $.each(data.services, function(key, value) {
             $("<div><h2>" +
