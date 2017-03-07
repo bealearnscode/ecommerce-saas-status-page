@@ -25,11 +25,14 @@ h1 {
     text-align: center;
 }
 
+.nav-placeholder {
+  float: none !important;
+  margin: 20px auto;
+}
+
 nav {
     background-color: #3498db;
     display: flex;
-    float: none !important;
-    margin: 5% auto;
     z-index: 500;
 }
 
