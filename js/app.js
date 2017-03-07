@@ -4,7 +4,12 @@ $(document).ready(function() {
 
     $(window).scroll(function() {
       var scrollPos = $(window).scrollTop();
-    };
+      if (scrollPos >= navOffset) {
+        $("nav").addClass("fixed");
+      } else {
+        $("nav").removeClass("fixed");
+      };
+    });
 
     $.getJSON("./js/history.json", function(data) {
         $.each(data.services, function(key, value) {
