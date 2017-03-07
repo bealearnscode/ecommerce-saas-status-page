@@ -2,10 +2,8 @@ $(document).ready(function() {
 
     var navOffset=$("nav").offset().top;
 
-    $("nav").wrap("<div class='nav-placeholder'></div>");
+    $("nav").wrap("<div class='nav-placeholder small-12 columns'></div>");
     $(".nav-placeholder").height($("nav").outerHeight());
-
-    $("nav").wrapInner("<div class='nav-inner'></div>");
 
     $(window).scroll(function() {
       var scrollPos = $(window).scrollTop();
