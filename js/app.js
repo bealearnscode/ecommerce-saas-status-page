@@ -1,4 +1,8 @@
 $(document).ready(function() {
+
+    var navOffset=$("nav").offset().top;
+    alert(navOffset);
+
     $.getJSON("./js/history.json", function(data) {
         $.each(data.services, function(key, value) {
             $("<div><h2>" +
