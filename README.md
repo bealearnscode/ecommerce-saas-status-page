@@ -1,4 +1,4 @@
-# Magento SaaS
+# E-Commerce SaaS
 
 An imaginary SaaS product created by Beatrix.
 
