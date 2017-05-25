@@ -1,8 +1,8 @@
-# Magento SaaS
+# E-Commerce SaaS
 
 An imaginary SaaS product created by Beatrix.
 
-### Demo: https://bealearnscode.github.io/magento-saas-status-page/
+### Demo: https://bealearnscode.github.io/ecommerce-saas-status-page/
 
 
 ## Getting set up
